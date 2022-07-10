@@ -1,0 +1,46 @@
+extends base.pug
+
+//- block scripts 
+     //- script(src='/static/index.js') if any script file, include it here.
+
+block style 
+    style
+        include style.css 
+
+block content 
+    section#introsection 
+        div#div1  Welcome to Dance Academy 
+        div#div2 ! Live Learn Dance !
+    section#qualitysection
+        div#heading
+            | Why choose Us ? 
+        div#cards
+            div.card
+                h3 Best Methodology
+                div.card-img
+                    img(src="/static/qualityimg1.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+            div.card
+                h3 Best Choreographers
+                div.card-img
+                    img(src="/static/qualityimg2.jpeg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+            div.card
+                h3 Best Facilities
+                div.card-img
+                    img(src="/static/qualityimg3.jpg")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+    section#sponsorsection 
+        | Our sponsors 
+        div#sponsors
+            div.sponsorimg
+                img(src="/static/client_logo1.png", alt="ImageHere")
+            div.sponsorimg
+                img(src="/static/client_logo2.png", alt="ImageHere")
+            div.sponsorimg
+                img(src="/static/client_logo3.png", alt="ImageHere")
+            div.sponsorimg
+                img(src="/static/client_logo4.png", alt="ImageHere")

@@ -1,0 +1,21 @@
+extends base.pug
+
+//- block scripts 
+     //- script(src='/static/index.js') if any script file, include it here.
+
+block style 
+    style
+        include style.css 
+        include stylecontact.css
+
+block content 
+    div#contact
+        h2 Contact Us
+        form.myform(action="/contact", method="post")
+            input(type="text", class="myInput", name="name", placeholder="Enter Your Name ")
+            input(type="phone", class="myInput", name="phone", placeholder="Enter Your phone Number ")
+            input(type="email", class="myInput", name="email", placeholder="Enter Your email id ")
+            input(type="text", class="myInput", name="address", placeholder="Enter Your address ")
+            input(type="text", class="myInput", name="desc", placeholder="Enter Your query/message ")
+            button(class="btn")
+                | Submit

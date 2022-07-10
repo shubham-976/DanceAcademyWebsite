@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html 
+    head 
+        title='Dance Academy'
+        style 
+            include style.css 
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.jpg")
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") Bulletin]
+                li #[a(href="/") AboutUs]
+                li #[a(href="/") ContactUs]
+        hr
+        section#introsection 
+            div#div1  Welcome to Dance Academy 
+            div#div2 ! Live Learn Dance !
+        section#qualitysection
+            div#heading
+                | Why choose Us ? 
+            div#cards
+                div.card
+                    h3 Best Methodology
+                    div.card-img
+                        img(src="/static/qualityimg1.jpg")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+                div.card
+                    h3 Best Choreographers
+                    div.card-img
+                        img(src="/static/qualityimg2.jpeg")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+                div.card
+                    h3 Best Facilities
+                    div.card-img
+                        img(src="/static/qualityimg3.jpg")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam iusto. Minus, veniam dicta. Libero.
+        section#sponsorsection 
+            | Our sponsors 
+            div#sponsors
+                div.sponsorimg
+                    img(src="/static/client_logo1.png", alt="ImageHere")
+                div.sponsorimg
+                    img(src="/static/client_logo2.png", alt="ImageHere")
+                div.sponsorimg
+                    img(src="/static/client_logo3.png", alt="ImageHere")
+                div.sponsorimg
+                    img(src="/static/client_logo4.png", alt="ImageHere")
+
+        footer#footer 
+            | CopyrightⒸ 2022 | www.YourDanceAcademy.com | All Rights Reserved

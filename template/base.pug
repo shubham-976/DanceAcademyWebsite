@@ -1,0 +1,20 @@
+doctype html
+html
+    head 
+        title Your Dance Academy
+        block scripts 
+        block style
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.jpg")
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") Bulletin]
+                li #[a(href="/") AboutUs]
+                li #[a(href="/contact") ContactUs]
+        hr
+        block content
+        footer#footer 
+            | CopyrightⒸ 2022 | www.YourDanceAcademy.com | All Rights Reserved
