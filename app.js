@@ -24,6 +24,15 @@ app.get("/", (req, res)=>{
 app.get("/contact", (req, res)=>{
     res.status(200).render('contact.pug', {}); //{} mean no parameter passed.
 })
+app.get("/about", (req, res)=>{
+    res.status(200).render('about.pug', {}); //{} mean no parameter passed.
+})
+app.get("/services", (req, res)=>{
+    res.status(200).render('services.pug', {}); //{} mean no parameter passed.
+})
+app.get("/bulletin", (req, res)=>{
+    res.status(200).render('bulletin.pug', {}); //{} mean no parameter passed.
+})
 
 //start the server
 app.listen(port, ()=>{

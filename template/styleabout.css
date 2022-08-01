@@ -1,0 +1,10 @@
+h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#about{
+    height:85vh;
+    /* background-color: yellow; */
+    margin : 0px 0px;
+}
