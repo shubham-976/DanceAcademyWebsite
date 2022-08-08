@@ -1,4 +1,4 @@
-Its a Website for Dance Academy.
+Its A Website "for Dance Academy".
 Frontend : HTML, CSS, Javascript, PUG-TEMPLATE-ENGINE.
 Backend : Javascript, nodeJS, Express.
 Other Concepts used : Template-Inheritance etc.
